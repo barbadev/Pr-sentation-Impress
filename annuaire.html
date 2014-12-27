@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|Raleway:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+
+
+<body style="background:transparent">
+
+
+<div id="impress">
+
+
+    <div class="step" data-x="3000" data-y="-4000" data-z="1" data-scale=5>
+        <img src="img/annuaireicon.png"  class="icon" /><strong>Processus de déclaration de comptes via l'Annuaire RH Soletanche Freyssinet</strong>
+    </div>
+
+
+    <div class="step" data-x="-5000" data-y="700" data-z="1" data-scale=5 data-rotate-y="40">
+        <img src="img/annuaire.png" style="width:100%; height:auto; -webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);" />
+    </div>
+
+    <div class="step" data-x="-1800" data-y="700" data-z="1" data-scale=3 data-rotate-y="40">
+         <img src="img/demande.png" style="width:100%; height:auto;-webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);" />
+    </div>
+
+    <div class="step" data-x="400" data-y="0" data-z="1">
+        <div class="diapo"><img src="img/office.png"  class="icon" /><h1><strong>Gestion du compte Office 365</strong></h1>
+        <p>Création d'une requète d'ouverture de messagerie pour le script</p></div>
+
+    </div>
+
+    <div class="step" data-x="1400" data-y="0" data-z="1" data-rotate-y="-70">
+        <div class="diapo"><img src="img/logops.png" class="icon" /><h1><strong>Récupération de la requète par le script</strong></h1>
+        <p>Suppression de la demande dans l'annuaire</p></div>
+    </div>
+
+    <div class="step" data-x="3400" data-y="0" data-z="1" data-rotate-y="-70">
+        <div class="diapo"><img src="img/owa.png" class="icon" /><h1><strong>Création de la boîte aux lettres</strong></h1>
+        <p>Mot de passe</p>
+        <p>Positionnement OU dans l'AD</p></div>
+    </div>
+
+
+    <div class="step" data-x="500" data-y="700" data-z="1">
+        <div class="diapo"><img src="img/notes.png" class="icon" /><h1><strong>Lotus Notes & Intranet</strong></h1>
+        <p>Création de compte</p><p>Mot de passe Intranet</p><p>Propriétaire fiche annuaire</p></div> 
+
+    </div>
+
+    <div class="step" data-x="1500" data-y="1200" data-rotate-y="-70" data-z="1">
+        <div class="diapo"><img src="img/key.png" class="icon"/><h1><strong>Si le compte existe</strong></h1>
+        <p><ul>
+            <li>L'utilisateur défini comme propriétaire de sa fiche</li>
+            <li>Le mot de passe Intranet initialisé si nécessaire</li>
+        </ul></p></div>
+    </div>
+
+    <div class="step" data-x="2000" data-y="700" data-rotate-y="-70" data-z="1">
+        <div class="diapo"><img src="img/adduser.png" class="icon"/><h1><strong>Si aucun compte</strong></h1>
+        <p><ul>
+            <li>Si serveur : demande de compte Notes</li>
+            <li>Sinon : création compte Intranet</li>
+        </ul></p></div>
+    </div>
+
+     <div class="step" data-x="2700" data-y="1200" data-rotate-y="-70" data-z="1">
+        <div class="diapo"><p style="font-weight:bold; font-size  :12px; border-bottom : 1px solid #006;color:#900;">PAS DE SERVEUR NOTES DEFINI POUR CREATION ID</p><img src="img/key.png" class="icon"/><h1><strong>Après création du compte Intranet</strong></h1>
+        <p><ul>
+            <li>Mot de passe O365</li>
+            <li>L'utilisateur proprétaire de sa fiche annuaire</li>
+        </ul></p></div>
+    </div>
+
+    <div class="step" data-x="3500" data-y="450" data-rotate-y="-70" data-z="1">
+        <div class="diapo"><p style="font-weight:bold; font-size  :12px; border-bottom : 1px solid #006;color:#090;">SERVEUR NOTES DEFINI POUR CREATION ID</p><img src="img/synchro.png" class="icon"/><h1><strong>Lorsque base de requète répliquée sur serveur cible</strong></h1>
+        <p><ul>
+
+            <li>Demande de création d'un compte Notes.</li>
+        </ul></p></div>
+    </div>
+
+    <div class="step" data-x="5500" data-y="650" data-rotate-y="-70" data-z="1">
+        <div class="diapo"><p style="font-weight:bold; font-size  :12px; border-bottom : 1px solid #006;color:#090;">SERVEUR NOTES DEFINI POUR CREATION ID</p><img src="img/tools.png" class="icon"/><h1><strong>Après réplication CA sur SAPP1</strong></h1>
+        <p><ul>
+            <li>Fiche dans coffre avec l'ID</li>
+            <li>Entreprise dans CA</li>
+        </ul></p></div>
+    </div> 
+
+    <div class="step" data-x="7000" data-y="1400" data-rotate-y="-70" data-z="1">
+        <div class="diapo"><p style="font-weight:bold; font-size  :12px; border-bottom : 1px solid #006;color:#090;">SERVEUR NOTES DEFINI POUR CREATION ID</p><img src="img/key.png" class="icon"/><h1><strong>L'utilisateur est défini comme propriétaire de sa fiche annuaire</strong></h1></div>
+    </div> 
+
+    <div class="step" data-x="3000" data-y="700" data-scale="10">
+        <img src="img/fondb.png" style="width : 100%; height:auto" />
+    </div>
+
+
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
